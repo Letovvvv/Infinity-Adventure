@@ -477,8 +477,12 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.3.11f1/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 "Assets/PlayerInputActions/PlayerInputActions.cs"
 "Assets/Scripts/GameInput/GameInput.cs"
+"Assets/Scripts/GlobalCoroutineRunner/GlobalCoroutineRunner.cs"
 "Assets/Scripts/Player/Player.cs"
 "Assets/Scripts/Player/PlayerVisual.cs"
+"Assets/Scripts/ScriptableObjects/DamageSkillSO.cs"
+"Assets/Scripts/ScriptableObjects/SkillSO.cs"
+"Assets/Scripts/Skills/SkillUser.cs"
 -langversion:9.0
 /deterministic
 /optimize+

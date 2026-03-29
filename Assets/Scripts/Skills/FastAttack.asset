@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7855695b0422e94f97743f2d073c99d, type: 3}
+  m_Name: FastAttack
+  m_EditorClassIdentifier: Assembly-CSharp::DamageSkillSO
+  name: 0
+  _damage: 5
+  _polygonCollider2D: {fileID: 7353981861943210487, guid: 8924c3a56ab49ea479457f135abbd98f, type: 3}
+  _preparing: 1
+  _colliderTime: 0.1

@@ -50,8 +50,12 @@
   <ItemGroup>
     <Compile Include="Assets\PlayerInputActions\PlayerInputActions.cs" />
     <Compile Include="Assets\Scripts\GameInput\GameInput.cs" />
+    <Compile Include="Assets\Scripts\ScriptableObjects\SkillSO.cs" />
+    <Compile Include="Assets\Scripts\Skills\SkillUser.cs" />
+    <Compile Include="Assets\Scripts\ScriptableObjects\DamageSkillSO.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerVisual.cs" />
     <Compile Include="Assets\Scripts\Player\Player.cs" />
+    <Compile Include="Assets\Scripts\GlobalCoroutineRunner\GlobalCoroutineRunner.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -1,11 +1,17 @@
 using System;
+using System.Collections;
 using UnityEngine;
+using System.Collections.Generic;
 
 public class Player : MonoBehaviour
 {
         public static Player Instance { get; private set; }
 
         [SerializeField] private float _initialMovingSpeed = 8f;
+
+        private PolygonCollider2D _fastAttackPolygonCollider2D;
+
+        private EventHandler OnPrepairing;
 
         /// <summary>
         /// то, с какой скоростью и куда движется игрок
@@ -55,6 +61,15 @@ public class Player : MonoBehaviour
         {
                 return _isTurnLeft;
         }
+
+/*        public void TurnOffPolygonCollider2D(string colliderName)
+        {
+                GameObject intermediateTargetCollider = GameObject.Find(colliderName);
+
+
+
+                targetCollider.enable = false;
+        }*/
 
         /// <summary>
         /// изменение позиции игрока и переменных isRunning и isTurnLeft
